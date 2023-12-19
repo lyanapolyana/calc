@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    background: #111111;
+}
+
+.container {
+    width: 100%;
+    max-width: 360px;
+    margin: auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 46px;
+    font-weight: 500;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.num {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 16px;
+    width: 100%;
+    max-width: 360px;
+}
+
+.num input {
+    border-radius: 16px;
+    background: #1C1C1C;
+    width: 100%;
+    max-width: 360px;
+    height: 60px;
+    align-items: center;
+    color: #ffffff;
+    font-family: 'Mulish';
+    font-size: 20px;
+    padding-left: 24px;
+    border: none;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 360px;
+    margin-bottom: 16px;
+}
+
+.actions button {
+    width: 78px;
+    height: 60px;
+    background: #1C1C1C;
+    border-radius: 16px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#calculateBtn {
+    border-radius: 16px;
+    background: linear-gradient(90deg, #4084FF 0%, #9277FA 100%);
+    width: 360px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+    margin-bottom: 48px;
+}
+
+.actions button:hover {
+    background: #292929;
+}
+
+#calculateBtn:hover {
+    background: linear-gradient(90deg, #1663EE 0%, #6340EB 100%);
+}
+
+.num input:hover {
+    background: #292929;
+}
+
+.result {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 16px;
+    background: #1C1C1C;
+    width: 100%;
+    max-width: 360px;
+    height: 60px;
+    gap: 34px;
+    padding-left: 24px;
+}
+
+.result p {
+    color: #969698;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.result span {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#secondNumber {
+    margin-bottom: 32px;
+}
+
+.actions button:active {
+    background: #4084FF;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Калькулятор</h1>
+      <div class="num">
+        <input type="number" id="firstNumber" value="0"/>
+      </div>
+      <div class="actions">
+        <button id="plusBtn"><img src="img/plus.svg" alt="plus"/></button>
+        <button id="minusBtn"><img src="img/minus.svg" alt="minus"/></button>
+        <button id="multiBtn"><img src="img/multi.svg" alt="multi"/></button>
+        <button id="divisionBtn"><img src="img/division.svg" alt="division"/></button>
+      </div>
+      <div class="num">
+        <input type="number" id="secondNumber" value="0"/>
+      </div>
+      <button id="calculateBtn">Вычислить</button>
+      <div class="result">
+        <p>Результат</p>
+        <span id="result">0</span>
+      </div>
+    </div>
+  </body>
+  
+<script src="script.js"></script>
+
+</html>
